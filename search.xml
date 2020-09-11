@@ -3,7 +3,9 @@
   <entry>
     <title>代码测试</title>
     <url>/2020/09/11/code-blog/</url>
-    <content><![CDATA[<h1 id="代码片段"><a href="#代码片段" class="headerlink" title="代码片段"></a>代码片段</h1><pre class="line-numbers language-none"><code class="language-none">class Person
+    <content><![CDATA[<h1 id="这是一篇代码测试文章"><a href="#这是一篇代码测试文章" class="headerlink" title="这是一篇代码测试文章"></a>这是一篇代码测试文章</h1><a id="more"></a>
+
+<h1 id="代码片段"><a href="#代码片段" class="headerlink" title="代码片段"></a>代码片段</h1><pre class="line-numbers language-none"><code class="language-none">class Person
   include ActiveModel::Conversion
   include ActiveModel::Validations
 
