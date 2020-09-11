@@ -37,7 +37,7 @@ p person1.valid?<span aria-hidden="true" class="line-numbers-rows"><span></span>
     <content><![CDATA[<span class="github-emoji" alias="tada" style="font-size: 2em; font-weight: bold" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f389.png?v8">🎉</span> as it is.
 
 <p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<!-- 阅读全文 -->
+<a id="more"></a>
 
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
