@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>代码测试</title>
+    <url>/2020/09/11/code-blog/</url>
+    <content><![CDATA[<figure class="highlight plain"><table><tbody><tr><td class="code"><pre><span class="line">class Person</span><br><span class="line">  include ActiveModel::Conversion</span><br><span class="line">  include ActiveModel::Validations</span><br><span class="line"></span><br><span class="line">  validates_presence_of :name</span><br><span class="line"></span><br><span class="line">  attr_accessor :name</span><br><span class="line"></span><br><span class="line">  def initialize(attributes = {})</span><br><span class="line">    @name = attributes[:name]</span><br><span class="line">  end</span><br><span class="line"></span><br><span class="line">  def persist</span><br><span class="line">    @persisted = true</span><br><span class="line">  end</span><br><span class="line"></span><br><span class="line">  def persisted?</span><br><span class="line">    @persisted</span><br><span class="line">  end</span><br><span class="line">end</span><br><span class="line"></span><br><span class="line">person1 = Person.new(:name =&gt; "matz")</span><br><span class="line">p person1.valid?</span><br></pre></td></tr></tbody></table></figure>
+]]></content>
+      <tags>
+        <tag>test</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/2020/09/11/hello-world/</url>
     <content><![CDATA[<span class="github-emoji" alias="tada" style="font-size: 2em; font-weight: bold" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f389.png?v8">🎉</span> as it is.
@@ -24,8 +33,8 @@
         <category>demo</category>
       </categories>
       <tags>
-        <tag>demo</tag>
         <tag>test</tag>
+        <tag>demo</tag>
       </tags>
   </entry>
 </search>
